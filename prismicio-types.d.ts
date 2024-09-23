@@ -45,6 +45,7 @@ interface PageDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   meta_description: prismic.KeyTextField;
+  title: prismic.RichTextField;
 
   /**
    * Meta Image field in *Page*
@@ -404,7 +405,7 @@ declare module "@prismicio/client" {
   interface CreateClient {
     (
       repositoryNameOrEndpoint: string,
-      options?: prismic.ClientConfig,
+      options?: prismic.ClientConfig
     ): prismic.Client<AllDocumentTypes>;
   }
 
