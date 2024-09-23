@@ -8,6 +8,11 @@ import Header from "@/components/Header";
 import ViewCanvas from "@/components/ViewCanvas";
 import Footer from "@/components/Footer";
 
+export const metadata = {
+  title: "Cocotein - electrolyte fruit water",
+  description: "Discover the refreshing taste of Cocotein",
+};
+
 const alpino = localFont({
   src: "../../public/fonts/Alpino-Variable.woff2",
   display: "swap",
