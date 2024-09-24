@@ -25,10 +25,10 @@ export default function RootLayout({
       <head>
         {/* Primary Meta Tags */}
         <title>Cocotein - electrolyte fruit water</title>
-        <meta name="title" content="Cocotein - electrolyte fruit water" />
+        <meta name="title" content="Cocotein - Eectrolyte Fruit Water" />
         <meta
           name="description"
-          content="Discover the refreshing taste of Cocotein."
+          content="Discover the refreshing taste of Cocotein made from pure coconut water without artificial additives or preservatives and promote coconut water’s ability to replenish the body with essential electrolytes ."
         />
 
         {/* Open Graph / Facebook */}
