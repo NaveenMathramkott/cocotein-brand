@@ -51,7 +51,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             opacity: 0,
             y: 30,
           },
-          "+=.8",
+          "+=.8"
         )
         .from(".hero-body", {
           opacity: 0,
@@ -82,7 +82,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             backgroundColor: "#D9F99D",
             overwrite: "auto",
           },
-          1,
+          1
         )
         .from(".text-side-heading .split-char", {
           scale: 1.3,
@@ -98,7 +98,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           opacity: 0,
         });
     },
-    { dependencies: [ready, isDesktop] },
+    { dependencies: [ready, isDesktop] }
   );
 
   return (
@@ -117,7 +117,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       <div className="grid">
         <div className="grid h-screen place-items-center">
           <div className="grid auto-rows-min place-items-center text-center">
-            <h1 className="hero-header text-7xl font-black uppercase leading-[.8] text-orange-500 md:text-[9rem] lg:text-[13rem]">
+            <h1 className="hero-header text-5xl font-black uppercase leading-[.8] text-orange-500 md:text-[7rem] lg:text-[10rem]">
               <TextSplitter
                 text={asText(slice.primary.heading)}
                 wordDisplayStyle="block"
