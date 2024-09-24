@@ -36,26 +36,32 @@ export default function RootLayout({
         <meta property="og:url" content="https://cocotein.vercel.app/" />
         <meta
           property="og:title"
-          content="Cocotein - electrolyte fruit water"
+          content="Cocotein - Electrolyte Fruit Water"
         />
         <meta
           property="og:description"
-          content="Discover the refreshing taste of Cocotein"
+          content="Discover the refreshing taste of Cocotein made from pure coconut water without artificial additives or preservatives and promote coconut water’s ability to replenish the body with essential electrolytes ."
         />
-        <meta property="og:image" content="./screenshot.png" />
+        <meta
+          property="og:image"
+          content="https://cocotein.vercel.app/screenshot.png"
+        />
 
         {/* Twitter */}
         <meta
           property="twitter:card"
-          content="Cocotein - electrolyte fruit water"
+          content="Cocotein - Electrolyte Fruit Water"
         />
         <meta property="twitter:url" content="https://cocotein.vercel.app/" />
         <meta property="twitter:title" content="Homepage" />
         <meta
           property="twitter:description"
-          content="Discover the refreshing taste of Cocotein."
+          content="Discover the refreshing taste of Cocotein made from pure coconut water without artificial additives or preservatives and promote coconut water’s ability to replenish the body with essential electrolytes ."
         />
-        <meta property="twitter:image" content="./screenshot.png" />
+        <meta
+          property="twitter:image"
+          content="https://cocotein.vercel.app/screenshot.png"
+        />
       </head>
       <body className="overflow-x-hidden bg-yellow-300">
         <Header />
